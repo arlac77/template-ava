@@ -4,11 +4,12 @@
     "test": "ava"
   },
   "devDependencies": {
-    "ava": "^2.4.0",
+    "ava": "3.0.0-beta.1",
     "c8": "^7.0.0",
     "esm": "^3.2.25"
   },
   "ava": {
+    "deepTemplateRecursion" : true,
     "require": [
       "esm"
     ],
