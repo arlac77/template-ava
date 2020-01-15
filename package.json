@@ -22,6 +22,7 @@
     ]
   },
   "template": {
+    "usedBy": [ "arlac77/npm-package-template" ],
     "files": [
       {
         "merger": "Readme",
