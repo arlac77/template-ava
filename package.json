@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "posttest": "--delete-- npm run prepare && markdown-doctest",
+    "posttest": "--delete-- markdown-doctest",
     "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "ava"
   },
