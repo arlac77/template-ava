@@ -6,24 +6,11 @@
   },
   "devDependencies": {
     "markdown-doctest": "--delete--",
-     
-    "ava": "^2.4.0",
-    "c8": "^7.1.0",
-    "esm": "^3.2.25"
+    "esm": "--selete--",
+    "ava": "^3.3.0",
+    "c8": "^7.1.0"
   },
-  "ava": {
-    "require": [
-      "esm"
-    ],
-    "extensions": [
-      "mjs"
-    ],
-    "babel": false,
-    "compileEnhancements": false,
-    "files": [
-      "tests/*-test.mjs"
-    ]
-  },
+  "ava": "--delete--",
   "template": {
     "usedBy": [ "arlac77/npm-package-template", "arlac77/npm-package-template-esm-only" ],
     "files": [
