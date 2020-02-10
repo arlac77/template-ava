@@ -2,7 +2,7 @@
   "scripts": {
     "posttest": "--delete-- markdown-doctest && --delete-- npm run prepare",
     "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
-    "test": "ava --timeout 2m"
+    "test": "#overwrite ava --timeout 2m"
   },
   "devDependencies": {
     "markdown-doctest": "--delete--",
