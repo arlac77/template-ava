@@ -1,14 +1,10 @@
 {
   "scripts": {
-    "posttest": "--delete-- markdown-doctest && --delete-- npm run prepare",
     "test": "#overwrite ava --node-arguments '--experimental-modules' --timeout 2m"
   },
   "devDependencies": {
-    "markdown-doctest": "--delete--",
-    "esm": "--delete--",
     "ava": "^3.3.0"
   },
-  "ava": "--delete--",
   "template": {
     "usedBy": [ "arlac77/npm-package-template", "arlac77/npm-package-template-esm-only" ]
   }
