@@ -6,6 +6,9 @@
     "ava": "^3.4.0"
   },
   "template": {
-    "usedBy": [ "arlac77/npm-package-template", "arlac77/npm-package-template-esm-only" ]
+    "usedBy": [
+      "arlac77/template-cli-app",
+      "arlac77/template-esm-only"
+    ]
   }
 }
