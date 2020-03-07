@@ -1,14 +1,14 @@
 {
   "scripts": {
-    "test": "#overwrite ava --node-arguments '--experimental-modules' --timeout 2m"
+    "test": "#overwrite ava --timeout 2m"
   },
   "devDependencies": {
     "ava": "^3.5.0"
   },
   "template": {
     "usedBy": [
-      "arlac77/template-cli-app",
-      "arlac77/template-esm-only"
+      "arlac77/template-coverage",
+      "arlac77/template-cli-app"
     ]
   }
 }
