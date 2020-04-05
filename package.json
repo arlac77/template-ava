@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "#overwrite ava --timeout 2m"
+    "test": "overwrite ava --timeout 2m"
   },
   "devDependencies": {
     "ava": "^3.6.0"
