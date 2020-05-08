@@ -3,7 +3,7 @@
     "test": "ava --timeout 2m"
   },
   "devDependencies": {
-    "ava": "^3.8.1"
+    "ava": "^3.8.2"
   },
   "template": {
     "usedBy": [
