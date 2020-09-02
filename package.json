@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "test": "ava --timeout 2m"
+    "test": "ava {{ava.options}}"
   },
   "devDependencies": {
     "ava": "^3.12.1"
   },
   "template": {
+    "properties": {
+      "ava" : { "options" : "--timeout 2m" } 
+    }, 
     "usedBy": [
       "arlac77/template-coverage",
       "arlac77/template-node-app",
