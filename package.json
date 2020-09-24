@@ -11,7 +11,7 @@
     }, 
     "usedBy": [
       "arlac77/template-coverage",
-      "arlac77/template-node-app",
+      "arlac77/template-node-component",
       "arlac77/template-esm-only"
     ]
   }
