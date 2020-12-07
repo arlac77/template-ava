@@ -14,8 +14,7 @@
       }
     },
     "usedBy": [
-      "arlac77/svelte-guard-history-router",
-      "arlac77/template-coverage",
+      "arlac77/template-ava-coverage",
       "arlac77/template-esm-only",
       "arlac77/template-node-component"
     ]
