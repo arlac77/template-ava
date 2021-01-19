@@ -13,6 +13,9 @@
         "tests": "tests/*.mjs"
       }
     },
+    "inheritFrom": [
+      "arlac77/template-javascript",
+    ],
     "usedBy": [
       "arlac77/svelte-command",
       "arlac77/svelte-common",
