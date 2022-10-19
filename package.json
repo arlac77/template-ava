@@ -10,7 +10,7 @@
     "properties": {
       "ava": {
         "options": "--timeout 2m",
-        "tests": "tests/*-ava.mjs"
+        "tests": "tests/*-ava.mjs tests/*-ava-node.mjs"
       }
     },
     "inheritFrom": [
