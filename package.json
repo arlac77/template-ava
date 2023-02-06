@@ -4,7 +4,7 @@
     "test:ava": "ava {{ava.options}} {{ava.tests}}"
   },
   "devDependencies": {
-    "ava": "^5.1.1"
+    "ava": "^5.2.0"
   },
   "template": {
     "properties": {
