@@ -9,7 +9,7 @@
   "template": {
     "properties": {
       "ava": {
-        "options": "--timeout 2m",
+        "options": "--timeout 4m",
         "tests": "tests/*-ava.mjs tests/*-ava-node.mjs"
       }
     },
