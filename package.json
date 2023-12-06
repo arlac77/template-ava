@@ -4,7 +4,7 @@
     "test:ava": "--overwrite-- ava {{ava.options}} {{ava.tests}}"
   },
   "devDependencies": {
-    "ava": "^6.0.0"
+    "ava": "^6.0.1"
   },
   "template": {
     "properties": {
