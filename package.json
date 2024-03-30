@@ -22,7 +22,7 @@
       "arlac77/template-ava-coverage",
       "arlac77/template-javascript-component",
       "arlac77/template-node-component",
-      "konsumation/konsum-frontend-svelte"
+      "konsumation/frontend-svelte"
     ]
   }
 }
