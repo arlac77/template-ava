@@ -21,8 +21,7 @@
       "arlac77/svelte-common",
       "arlac77/template-ava-coverage",
       "arlac77/template-javascript-component",
-      "arlac77/template-node-component",
-      "konsumation/frontend-svelte"
+      "arlac77/template-node-component"
     ]
   }
 }
