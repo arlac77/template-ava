@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "npm run test:ava",
+    "test": "node --run test:ava",
     "test:ava": "--overwrite-- ava {{ava.options}} {{ava.tests}}"
   },
   "devDependencies": {
