@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "node --run test:ava",
-    "test:ava": "--overwrite-- ava {{ava.options}} {{ava.tests}}"
+    "test:ava": "--overwrite-- ava{{ava.options}} {{ava.tests}}"
   },
   "devDependencies": {
     "ava": "^6.3.0"
@@ -9,7 +9,9 @@
   "template": {
     "properties": {
       "ava": {
-        "options": "--timeout 4m",
+        "timeout": "4m",
+        "timeout-option": " --timeout {{ava.timeout}}",
+        "options": "{{ava.timeout-option}}",
         "tests": "tests/*-ava.mjs tests/*-ava-node.mjs"
       }
     },
